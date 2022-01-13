@@ -1,0 +1,38 @@
+body {
+    background-size: cover;
+    font-family: 'Dancing Script', cursive;
+}
+
+.heading {
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    background-image: linear-gradient(#00ff73, #0091ff, #ff0000);
+}
+
+
+#start,
+#number_of_objects,
+#status {
+    font-size: 25px;
+    color: gold;
+}
+
+
+.capy_right_footer {
+    position: fixed;
+    color: navy;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(#00ff73, #0091ff, #ff0000);
+    line-height: 3;
+    text-align: center;
+    font-size: 25px;
+}
+
+canvas {
+    border: 2px solid #0091ff;
+    border-radius: 10px;
+    margin-top: 130;
+    box-shadow: 5px 5px 5px navy;
+}
